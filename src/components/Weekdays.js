@@ -1,18 +1,19 @@
 import React from 'react';
 
 function Weekdays(){
+
     return(
-        <tbody className='weekdays-table-head'>
+        <thead className="weekday-table-header">
             <tr>
                 <th>Sun</th>
                 <th>Mon</th>
                 <th>Tue</th>
                 <th>Wed</th>
-                <th>Thurs</th>
+                <th>Thu</th>
                 <th>Fri</th>
                 <th>Sat</th>
             </tr>
-        </tbody>
+        </thead>
     )
 }
 
