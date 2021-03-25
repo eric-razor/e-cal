@@ -1,8 +1,6 @@
 import React from 'react';
 import '../styles/Month.css'
 
-// just shows the name of the date
-// 
 function MonthDays(){
     return (
         <tbody className="month-days-table-body">
